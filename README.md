@@ -1,4 +1,4 @@
-:cn:#### The NodeJS
+:cn: #### The NodeJS
 
 欢迎使用NodeJS 文档！
 
