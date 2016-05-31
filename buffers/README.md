@@ -110,7 +110,9 @@ buf1[i] = i + 97; // 97 is ASCII a
 buf2[i] = 33; // ASCII !
 }
 buf1.copy(buf2, 8, 16, 20);
-console.log(buf2.toString('ascii', 0, 25));```
+console.log(buf2.toString('ascii', 0, 25));
+//!!!!!!!!qrst!!!!!!!!!!!!!
+```
 
 
 **buffer.slice(start, end)**
