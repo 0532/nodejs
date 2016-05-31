@@ -1,5 +1,5 @@
 # Streams 流
-stream 是一个抽象接口，node 中有很对象实现了这个接口。例如，对http 服务器发起请求的request 对象就是
+stream 是一个抽象接口，node 中有很多对象实现了这个接口。例如，对http 服务器发起请求的request 对象就是
 一个stream，还有stdout（标准输出）。Stream 可以是只读、可写，也可以同时可读可写。所有的Stream 对象
 都是EventEmitter 的实例。
 
