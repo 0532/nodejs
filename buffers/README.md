@@ -65,7 +65,9 @@ for (var i = 0; i < str.length ; i += 1) {
 buf[i] = str.charCodeAt(i);
 }
 console.log(buf);
-// node.js```
+//❌  node.js
+//✅  <Buffer 6e 6f 64 65 2e 6a 73>
+```
 
 
 **Buffer.byteLength(string, encoding='utf8')**
