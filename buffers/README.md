@@ -65,7 +65,9 @@ for (var i = 0; i < str.length ; i += 1) {
 buf[i] = str.charCodeAt(i);
 }
 console.log(buf);
-// node.js```
+//❌  node.js
+//✅  <Buffer 6e 6f 64 65 2e 6a 73>
+```
 
 
 **Buffer.byteLength(string, encoding='utf8')**
@@ -108,7 +110,9 @@ buf1[i] = i + 97; // 97 is ASCII a
 buf2[i] = 33; // ASCII !
 }
 buf1.copy(buf2, 8, 16, 20);
-console.log(buf2.toString('ascii', 0, 25));```
+console.log(buf2.toString('ascii', 0, 25));
+//!!!!!!!!qrst!!!!!!!!!!!!!
+```
 
 
 **buffer.slice(start, end)**
